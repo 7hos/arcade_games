@@ -41,3 +41,29 @@ a{
 a:hover{
     color: var(--accent-color);
 }
+
+/* Game basic page structure */
+
+board{
+    display: flex;
+    flex-direction: row;
+}
+
+.game-area{
+    padding: 12px;
+}
+
+.game-data{
+    padding: 12px;
+    width: 240px;
+}
+
+h1{
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
